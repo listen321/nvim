@@ -133,3 +133,9 @@ nvim_lsp.html.setup {
     capabilities = capabilities,
     on_attach = custom_attach
 }
+
+require'lspconfig'.gopls.setup {
+    cmd = { "/home/lichen/go/bin/gopls" },
+    filetypes = { "go", "gomod" },
+    root_dir = nvim_lsp.util.root_pattern("go.mod", ".git")
+}
