@@ -21,7 +21,7 @@
 
 ![Gitui](./shots/gitui.png)
 
-[The original address] (https://github.com/ayamir/nvimdots)
+[The original address](https://github.com/ayamir/nvimdots)
 
 This is my neovim's configuration
 
