@@ -353,7 +353,7 @@ Then you can figure out what modification makes error.
 
 # Keybindings
 
-The leader key is `,`.
+The leader key is ` `.
 
 |                          Effect                           |            shortcut            |
 | :-------------------------------------------------------: | :----------------------------: |
