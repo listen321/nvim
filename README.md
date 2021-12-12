@@ -28,8 +28,7 @@ I use [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage plugins
 | Branch |   Completion Solution   |
 | :----: | :---------------------: |
 |  main  | nvim-lspconfig+nvim-cmp |
-|  coq   | nvim-lspconfig+coq_nvim |
-|  coc   |        coc.nvim         |
+
 
 Chinese introduction is [here](https://zhuanlan.zhihu.com/p/382092667).
 
@@ -482,45 +481,3 @@ The leader key is ` `.
 |                        Blame hunk                         |          `<leader>hb`          |
 
 You can see more keybinds in `lua/core/mapping.lua` and `lua/keymap/init.lua`.
-
-<a id="issues"></a>
-
-# Issues
-
-1. Clipboard for WSL2 users
-
-Please refer to [it](https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-windows-clipboard-from-wsl) and add `win32yank.exe` to your path.
-
-Then uncomment [this line](https://github.com/ayamir/nvimdots/blob/4ed10ccc71937cc86460f23da5ec646eec32125f/lua/core/init.lua#L147).
-
-2. Wrong configuration may invoke the dialog asking for deleting all plugins
-
-Input `n` and `<CR>`
-
-3. LSP servers don't autostart.
-
-Please check [this](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) to make sure your directory can be detected as a working directory.
-
-For example (gopls):
-
-Your root directory need a `go.mod` and your `.go` file need to be created
-first. Then LSP will autostart when you edit `.go` file next time.
-
-4. Copilot setup.
-
-Make sure your github account is signed up for [copilot](https://copilot.github.com/).
-
-Then use `Copilot setup` command to setup.
-
-<a id="credit"></a>
-
-# Credit
-
-- [glepnir/nvim](https://github.com/glepnir/nvim) as my config organization template.
-
-<a id="todo"></a>
-
-# TODO
-
-- [x] More documentation for how to customize.
-- [x] Backup old compiled configuration when error occurs.
