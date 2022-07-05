@@ -260,7 +260,7 @@ Then you can figure out what modification makes error.
 | :-----------------------------------------------------------------------------------------------------: | :---------------------------------: |
 |                      [nvim-lua/popup.nvim](https://github.com/nvim-lua/popup.nvim)                      |     Required by telescope.nvim      |
 |                    [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)                    |     Required by telescope.nvim      |
-|                         [tami5/sqlite.lua](https://github.com/tami5/sqlite.lua)                         | Required by telescope-frecency.nvim |
+|                         [kkharji/sqlite.lua](https://github.com/kkharji/sqlite.lua)                         | Required by telescope-frecency.nvim |
 |            [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)            |     Find, Filter, Preview, Pick     |
 | [nvim-telescope/telescope-fzy-native.nvim](https://github.com/nvim-telescope/telescope-fzy-native.nvim) |      Fzy search for telescope       |
 |    [nvim-telescope/telescope-project.nvim](https://github.com/nvim-telescope/telescope-project.nvim)    |   Manage projects with telescope    |
