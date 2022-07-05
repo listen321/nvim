@@ -23,7 +23,7 @@ tools["nvim-telescope/telescope-project.nvim"] = {
 tools["nvim-telescope/telescope-frecency.nvim"] = {
     opt = true,
     after = "telescope.nvim",
-    requires = {{"tami5/sqlite.lua", opt = true}}
+    requires = {{"kkharji/sqlite.lua", opt = true}}
 }
 tools["nvim-telescope/telescope-media-files.nvim"] = {
     opt = true,
