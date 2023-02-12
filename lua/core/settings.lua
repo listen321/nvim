@@ -67,6 +67,15 @@ settings["diagnostics_virtual_text"] = true
 ---@type "ERROR"|"WARN"|"INFO"|"HINT"
 settings["diagnostics_level"] = "HINT"
 
+-- Set the format disabled directories here, files under these dirs won't be formatted on save.
+--- NOTE: Directories may contain regular expressions (grammar: vim). |regexp|
+--- NOTE: Directories are automatically normalized. |vim.fs.normalize()|
+---@type string[]
+settings["format_disabled_dirs"] = {
+	"~/format_disabled_dir",
+	"~/.local"
+}
+
 -- Set the plugins to disable here.
 -- Example: "Some-User/A-Repo"
 ---@type string[]
