@@ -6,7 +6,7 @@ settings["use_ssh"] = true
 
 -- Set it to false if you don't use copilot
 ---@type boolean
-settings["use_copilot"] = true
+settings["use_copilot"] = false
 
 -- Set it to false if there is no need to format on save.
 ---@type boolean
@@ -73,7 +73,7 @@ settings["diagnostics_level"] = "HINT"
 ---@type string[]
 settings["format_disabled_dirs"] = {
 	"~/format_disabled_dir",
-	"~/.local"
+	"~/.local",
 }
 
 -- Set the plugins to disable here.
