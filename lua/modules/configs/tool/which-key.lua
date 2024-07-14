@@ -26,7 +26,7 @@ return function()
 				windows = true,
 				nav = true,
 				z = true,
-				g = false,
+				g = true,
 			},
 		},
 		win = {
