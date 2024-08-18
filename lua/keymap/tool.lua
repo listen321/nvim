@@ -106,6 +106,18 @@ local plug_map = {
 		:with_noremap()
 		:with_silent()
 		:with_desc("tool: Find word under cursor"),
+	["n|<leader>fs"] = map_cu("Telescope grep_string")
+		:with_noremap()
+		:with_silent()
+		:with_desc("tool: Find word under cursor"),
+	["n|<leader>fb"] = map_cu("Telescope buffers")
+		:with_noremap()
+		:with_silent()
+		:with_desc("tool:             Telescope buffer"),
+	["n|<leader>fe"] = map_cu("Telescope oldfiles")
+		:with_noremap()
+		:with_silent()
+		:with_desc("tool:             Telescope oldfiles"),
 	["n|<leader>fg"] = map_callback(function()
 			require("search").open({ collection = "git" })
 		end)
